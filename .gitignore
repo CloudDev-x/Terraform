@@ -2,3 +2,8 @@
 .terraform/
 *.tfstate
 *.tfstate.backup
+
+# Exclude the specified Terraform files from being ignored
+!main.tf
+!variables.tf
+
